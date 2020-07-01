@@ -1,0 +1,12 @@
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/bin/Debug/netcoreapp3.1/welcome.deps.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/bin/Debug/netcoreapp3.1/welcome.runtimeconfig.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/bin/Debug/netcoreapp3.1/welcome.runtimeconfig.dev.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/bin/Debug/netcoreapp3.1/welcome.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/bin/Debug/netcoreapp3.1/welcome.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/obj/Debug/netcoreapp3.1/welcome.csprojAssemblyReference.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/obj/Debug/netcoreapp3.1/welcome.AssemblyInfoInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/obj/Debug/netcoreapp3.1/welcome.AssemblyInfo.cs
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/obj/Debug/netcoreapp3.1/welcome.csproj.CoreCompileInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/obj/Debug/netcoreapp3.1/welcome.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/obj/Debug/netcoreapp3.1/welcome.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/accountingApp/welcome/obj/Debug/netcoreapp3.1/welcome.genruntimeconfig.cache

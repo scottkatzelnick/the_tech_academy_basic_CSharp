@@ -1,0 +1,7 @@
+\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\myConsoleProject\myConsoleProject\bin\Debug\myConsoleProject.exe.config
+\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\myConsoleProject\myConsoleProject\bin\Debug\myConsoleProject.exe
+\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\myConsoleProject\myConsoleProject\bin\Debug\myConsoleProject.pdb
+\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\myConsoleProject\myConsoleProject\obj\Debug\myConsoleProject.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\myConsoleProject\myConsoleProject\obj\Debug\myConsoleProject.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\myConsoleProject\myConsoleProject\obj\Debug\myConsoleProject.exe
+\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\myConsoleProject\myConsoleProject\obj\Debug\myConsoleProject.pdb
