@@ -1,0 +1,7 @@
+Z:\Documents\the_tech_academy_basic_CSharp\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe.config
+Z:\Documents\the_tech_academy_basic_CSharp\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe
+Z:\Documents\the_tech_academy_basic_CSharp\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.pdb
+Z:\Documents\the_tech_academy_basic_CSharp\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.csprojAssemblyReference.cache
+Z:\Documents\the_tech_academy_basic_CSharp\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.csproj.CoreCompileInputs.cache
+Z:\Documents\the_tech_academy_basic_CSharp\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.exe
+Z:\Documents\the_tech_academy_basic_CSharp\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.pdb

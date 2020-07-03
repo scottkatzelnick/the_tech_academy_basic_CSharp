@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{4F140C78-5119-42E9-9E45-72222368F4DF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="welcome/Program.cs">
+﻿<Properties StartupConfiguration="{0BBECD3F-27DC-490E-80E7-FF1D22D6EC80}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="welcome/Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="accountingApp" expanded="True">
-            <Node name="welcome" expanded="True">
+          <Node name="HelloWorld" expanded="True">
+            <Node name="HelloWorld" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -21,5 +22,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.welcome PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
