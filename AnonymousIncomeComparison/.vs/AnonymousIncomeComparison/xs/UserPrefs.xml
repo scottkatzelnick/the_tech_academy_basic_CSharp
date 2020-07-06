@@ -1,19 +1,21 @@
-﻿<Properties StartupConfiguration="{2B2F5B94-4FB6-4D78-8AD6-15714B2B1A8D}|Default">
+﻿<Properties StartupConfiguration="{9438F5BC-E67D-400D-AD18-AD129420C40F}|Default">
+  <MonoDevelop.Ide.ItemProperties.AnonymousIncomeComparison FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="211" Column="2" />
+      <File FileName="Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DivideAndConquer" expanded="True">
-            <Node name="DivideAndConquer" selected="True" />
+          <Node name="AnonymousIncomeComparison" expanded="True">
+            <Node name="AnonymousIncomeComparison" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DivideAndConquer PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
