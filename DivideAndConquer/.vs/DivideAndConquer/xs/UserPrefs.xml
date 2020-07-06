@@ -1,21 +1,19 @@
-﻿<Properties StartupConfiguration="{A08F8EA9-6656-470D-84FB-B7CC17DB3253}|Default">
+﻿<Properties StartupConfiguration="{2B2F5B94-4FB6-4D78-8AD6-15714B2B1A8D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="7" Column="40" />
+      <File FileName="Program.cs" Line="211" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DailyReport" expanded="True">
-            <Node name="DailyReport" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+          <Node name="DivideAndConquer" expanded="True">
+            <Node name="DivideAndConquer" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DailyReport PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DivideAndConquer FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
