@@ -1,0 +1,12 @@
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/bin/Debug/netcoreapp3.1/Branching.deps.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/bin/Debug/netcoreapp3.1/Branching.runtimeconfig.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/bin/Debug/netcoreapp3.1/Branching.runtimeconfig.dev.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/bin/Debug/netcoreapp3.1/Branching.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/bin/Debug/netcoreapp3.1/Branching.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/obj/Debug/netcoreapp3.1/Branching.csprojAssemblyReference.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/obj/Debug/netcoreapp3.1/Branching.AssemblyInfoInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/obj/Debug/netcoreapp3.1/Branching.AssemblyInfo.cs
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/obj/Debug/netcoreapp3.1/Branching.csproj.CoreCompileInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/obj/Debug/netcoreapp3.1/Branching.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/obj/Debug/netcoreapp3.1/Branching.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/Branching/obj/Debug/netcoreapp3.1/Branching.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branching", "Branching\Branching.csproj", "{43DDBAE5-3203-4F12-957E-BDC030E854F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanLogic", "BooleanLogic\BooleanLogic.csproj", "{388066E6-E079-45F0-9F75-CC8A9D765A24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43DDBAE5-3203-4F12-957E-BDC030E854F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DDBAE5-3203-4F12-957E-BDC030E854F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DDBAE5-3203-4F12-957E-BDC030E854F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DDBAE5-3203-4F12-957E-BDC030E854F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388066E6-E079-45F0-9F75-CC8A9D765A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388066E6-E079-45F0-9F75-CC8A9D765A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388066E6-E079-45F0-9F75-CC8A9D765A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388066E6-E079-45F0-9F75-CC8A9D765A24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
