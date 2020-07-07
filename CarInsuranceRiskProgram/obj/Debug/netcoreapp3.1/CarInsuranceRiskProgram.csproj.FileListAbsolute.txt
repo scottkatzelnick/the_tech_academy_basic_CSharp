@@ -1,0 +1,12 @@
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/bin/Debug/netcoreapp3.1/CarInsuranceRiskProgram.deps.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/bin/Debug/netcoreapp3.1/CarInsuranceRiskProgram.runtimeconfig.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/bin/Debug/netcoreapp3.1/CarInsuranceRiskProgram.runtimeconfig.dev.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/bin/Debug/netcoreapp3.1/CarInsuranceRiskProgram.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/bin/Debug/netcoreapp3.1/CarInsuranceRiskProgram.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/obj/Debug/netcoreapp3.1/CarInsuranceRiskProgram.csprojAssemblyReference.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/obj/Debug/netcoreapp3.1/CarInsuranceRiskProgram.AssemblyInfoInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/obj/Debug/netcoreapp3.1/CarInsuranceRiskProgram.AssemblyInfo.cs
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/obj/Debug/netcoreapp3.1/CarInsuranceRiskProgram.csproj.CoreCompileInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/obj/Debug/netcoreapp3.1/CarInsuranceRiskProgram.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/obj/Debug/netcoreapp3.1/CarInsuranceRiskProgram.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/CarInsuranceRiskProgram/obj/Debug/netcoreapp3.1/CarInsuranceRiskProgram.genruntimeconfig.cache
