@@ -1,0 +1,12 @@
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/bin/Debug/netcoreapp3.1/MeanWhileApp.deps.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/bin/Debug/netcoreapp3.1/MeanWhileApp.runtimeconfig.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/bin/Debug/netcoreapp3.1/MeanWhileApp.runtimeconfig.dev.json
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/bin/Debug/netcoreapp3.1/MeanWhileApp.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/bin/Debug/netcoreapp3.1/MeanWhileApp.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/obj/Debug/netcoreapp3.1/MeanWhileApp.csprojAssemblyReference.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/obj/Debug/netcoreapp3.1/MeanWhileApp.AssemblyInfoInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/obj/Debug/netcoreapp3.1/MeanWhileApp.AssemblyInfo.cs
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/obj/Debug/netcoreapp3.1/MeanWhileApp.csproj.CoreCompileInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/obj/Debug/netcoreapp3.1/MeanWhileApp.dll
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/obj/Debug/netcoreapp3.1/MeanWhileApp.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/MeanWhileApp/obj/Debug/netcoreapp3.1/MeanWhileApp.genruntimeconfig.cache

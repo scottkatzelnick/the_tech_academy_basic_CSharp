@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{5B053E07-1A99-48BA-92A9-99AE8CFFDE78}|Default">
+﻿<Properties StartupConfiguration="{B8269479-548F-4DF4-8661-A4A4C9C88CCA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MeanWhileApp FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="37" Column="57" />
+      <File FileName="Program.cs" Line="9" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PackageMasters" expanded="True">
-            <Node name="PackageMasters" expanded="True">
+          <Node name="MeanWhileApp" expanded="True">
+            <Node name="MeanWhileApp" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -16,7 +17,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.PackageMasters PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

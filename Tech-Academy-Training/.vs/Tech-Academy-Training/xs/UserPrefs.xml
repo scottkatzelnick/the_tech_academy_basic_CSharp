@@ -1,23 +1,23 @@
-﻿<Properties StartupConfiguration="{43DDBAE5-3203-4F12-957E-BDC030E854F3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Branching/Program.cs">
-    <Files>
-      <File FileName="Branching/Program.cs" Line="1" Column="1" />
-    </Files>
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Tech-Academy-Training" expanded="True">
-            <Node name="BooleanLogic" expanded="True" />
-            <Node name="Branching" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="Tech-Academy-Training" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Branching PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>BooleanLogic/BooleanLogic.csproj</String>
+    <String>Branching/Branching.csproj</String>
+    <String>HelloWorld/HelloWorld.csproj</String>
+    <String>MathAndComparisonOperators/MathAndComparisonOperators.csproj</String>
+    <String>VariablesAndDataTypes/VariablesAndDataTypes.csproj</String>
+    <String>ConsoleApp/ConsoleApp.csproj</String>
+    <String>Loops/Loops.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
