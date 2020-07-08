@@ -7,7 +7,7 @@ namespace CarInsuranceRiskProgram
     {
         static void Main(string[] args)
         {
-            RiskAssessment(intro, age, wait, dui, tickets, calculating, dots, qualify);            
+            RiskAssessment(intro, wait, age, dui, tickets, calculating, dots, qualify);            
         }
 
         const string intro = "This is a basic approval program for car insurance. It will ask you\nsome questions and return a “true” or “false” at the end as to whether\nor not you qualify for car insurance.";
@@ -26,7 +26,7 @@ namespace CarInsuranceRiskProgram
 
         const string qualify = "Have you qualified?";        
 
-        private static void RiskAssessment(string intro, string age, string wait, string dui, string tickets, string calculating, string dots, string qualify)
+        private static void RiskAssessment(string intro, string wait, string age, string dui, string tickets, string calculating, string dots, string qualify)
         {
             for (int i = 0; i < intro.Length; i++)
             {
@@ -42,7 +42,7 @@ namespace CarInsuranceRiskProgram
                 System.Threading.Thread.Sleep(15);
             }
             
-            Console.ReadLine();
+            Console.Read();
             Console.Write("\n\nQuestionnaire:\n\n");
 
             for (int i = 0; i < age.Length; i++)
