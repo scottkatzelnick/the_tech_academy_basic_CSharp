@@ -42,7 +42,7 @@ namespace CarInsuranceRiskProgram
                 System.Threading.Thread.Sleep(15);
             }
             
-            Console.Read();
+            Console.ReadLine();
             Console.Write("\n\nQuestionnaire:\n\n");
 
             for (int i = 0; i < age.Length; i++)

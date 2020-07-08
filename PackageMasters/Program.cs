@@ -29,9 +29,10 @@ namespace PackageMasters
                 Console.Write("Please Enter Package Length (inches)\n>>>: ");
                 double packLength = Convert.ToDouble(Console.ReadLine());
 
-                double packDimensions = packWidth + packHeight + packLength;
+                double packDimensions = packWidth * packHeight * packLength;
+                double packageValidate = packWidth + packHeight + packLength;
 
-                if (packDimensions > 50)
+                if (packageValidate > 50)
                 {
                     Console.WriteLine("Package too big to be shipped via Package Masters. Have a good day.");
                     Console.Write("Enter to exit. . .");
@@ -39,7 +40,7 @@ namespace PackageMasters
                 }
                 else
                 {
-                    string quote = $"Your estimated total for shipping this package is: ${((packDimensions * packWeight) / 100).ToString("C", CultureInfo.CurrentCulture)}";
+                    string quote = $"Your estimated total for shipping this package is: {((packDimensions * packWeight) / 100).ToString("C", CultureInfo.CurrentCulture)}";
                     Console.WriteLine(quote + "\nThank you!");
                 }
             }            
