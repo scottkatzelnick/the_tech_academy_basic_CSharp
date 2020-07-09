@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualBasic.CompilerServices;
 
@@ -29,6 +29,7 @@ namespace MathOperatorAssignment
             EndProgram(exit);
         }
 
+        // Hello There
         const string intro = "Welcome! In this console app you will give me an integer of your choosing and I will\nperform mathematical operations on your input. Don't be shy, I like working with larger\nnumbers as well!";
 
         private static void TypeIntro(string intro)

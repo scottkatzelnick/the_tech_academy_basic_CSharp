@@ -1,0 +1,7 @@
+C:\Users\Scott\source\repos\BabyApp\bin\Debug\BabyApp.exe.config
+C:\Users\Scott\source\repos\BabyApp\bin\Debug\BabyApp.exe
+C:\Users\Scott\source\repos\BabyApp\bin\Debug\BabyApp.pdb
+C:\Users\Scott\source\repos\BabyApp\obj\Debug\BabyApp.csprojAssemblyReference.cache
+C:\Users\Scott\source\repos\BabyApp\obj\Debug\BabyApp.csproj.CoreCompileInputs.cache
+C:\Users\Scott\source\repos\BabyApp\obj\Debug\BabyApp.exe
+C:\Users\Scott\source\repos\BabyApp\obj\Debug\BabyApp.pdb

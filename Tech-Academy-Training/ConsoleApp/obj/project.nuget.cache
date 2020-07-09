@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UmW2y/Nlqk3TNc3oYtWnX9u/uCuzD/RcLwEGC7sUab5F9V86bVl56d2bn1myQl6RkFh4N3XrHVxJf2BnFz9NEQ==",
+  "dgSpecHash": "GV35yAYEZuqaD/UtQ5F+yxPV70znyH5UjuqhU6hB3d9AOgoKp1cBI2Hh65/IT6/h0mIJaCEYnDPNGjhbfATEbg==",
   "success": true,
-  "projectFilePath": "/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ConsoleApp/ConsoleApp.csproj",
+  "projectFilePath": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

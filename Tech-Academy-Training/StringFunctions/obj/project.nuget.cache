@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3i1rvTh3SCnM1UNB+KTzp3LtJ43ssDROQKUGSH4r+wHqc+AnPrTH7UcfIyICXQDU6hR+0d01wzP4ireuyKf7oQ==",
+  "dgSpecHash": "Nvsf6qSPI0fA6xhYXYh804YK0oV4kx0Jq51N9mIWcdGvOchLpR8Hr1kNp2o1dJniERJN2pExJH0JS/4PTCfoIg==",
   "success": true,
-  "projectFilePath": "/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/StringFunctions/StringFunctions.csproj",
+  "projectFilePath": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\StringFunctions\\StringFunctions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

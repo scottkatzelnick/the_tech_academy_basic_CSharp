@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "136mLA8pSlosZ4pVMVRO3+ektPcfM6AZIiYg430U8mEUgsVV7UZYp9TPWI2rJqHjv3vX6Mx1SOLuKNZsPQjCUQ==",
+  "dgSpecHash": "kFc9HuU92OnYdfV9H9KpbKwmKDn/H+5uR48NHI0cK2y8wHiMKdFvVkNB0Zr4yMvcvZ4hZRm+5i1hRIxqU+/tJQ==",
   "success": true,
-  "projectFilePath": "/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/HelloWorld/HelloWorld.csproj",
+  "projectFilePath": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

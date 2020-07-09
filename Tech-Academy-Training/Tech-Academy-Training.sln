@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Branching", "Branching\Branching.csproj", "{AA364243-1444-4152-81F9-94539A7382BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanLogic", "BooleanLogic\BooleanLogic.csproj", "{D7703D04-AB58-47A5-B52B-F4B7FCC0EA47}"
@@ -16,6 +17,8 @@ EndProject
 Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "VariablesAndDataTypes", "VariablesAndDataTypes\VariablesAndDataTypes.csproj", "{B903A908-4759-4F3F-B909-48DBE135341A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFunctions", "StringFunctions\StringFunctions.csproj", "{29953472-D117-4F5B-B1A7-2842F74A78D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndLists", "ArraysAndLists\ArraysAndLists.csproj", "{B91BCEAA-3829-4D06-A006-1F1690185AC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,5 +58,15 @@ Global
 		{29953472-D117-4F5B-B1A7-2842F74A78D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29953472-D117-4F5B-B1A7-2842F74A78D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29953472-D117-4F5B-B1A7-2842F74A78D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91BCEAA-3829-4D06-A006-1F1690185AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91BCEAA-3829-4D06-A006-1F1690185AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91BCEAA-3829-4D06-A006-1F1690185AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91BCEAA-3829-4D06-A006-1F1690185AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D57BA888-96E1-4338-892E-01372C3AE3EB}
 	EndGlobalSection
 EndGlobal
