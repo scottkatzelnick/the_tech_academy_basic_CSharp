@@ -1,14 +1,21 @@
-Z:\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\bin\Debug\ArraysAndLists.exe.config
-Z:\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\bin\Debug\ArraysAndLists.exe
-Z:\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\bin\Debug\ArraysAndLists.pdb
-Z:\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.csprojAssemblyReference.cache
-Z:\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.csproj.CoreCompileInputs.cache
-Z:\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.exe
-Z:\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.pdb
-\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\bin\Debug\ArraysAndLists.exe.config
-\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\bin\Debug\ArraysAndLists.exe
-\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\bin\Debug\ArraysAndLists.pdb
-\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.csprojAssemblyReference.cache
-\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.csproj.CoreCompileInputs.cache
-\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.exe
-\\vmware-host\Shared Folders\Documents\the_tech_academy_basic_CSharp\Tech-Academy-Training\ArraysAndLists\obj\Debug\ArraysAndLists.pdb
+Z:/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.exe.config
+Z:/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.exe
+Z:/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.pdb
+Z:/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.csprojAssemblyReference.cache
+Z:/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.csproj.CoreCompileInputs.cache
+Z:/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.exe
+Z:/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.pdb
+//vmware-host/Shared Folders/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.exe.config
+//vmware-host/Shared Folders/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.exe
+//vmware-host/Shared Folders/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.pdb
+//vmware-host/Shared Folders/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.csprojAssemblyReference.cache
+//vmware-host/Shared Folders/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.csproj.CoreCompileInputs.cache
+//vmware-host/Shared Folders/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.exe
+//vmware-host/Shared Folders/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.exe.config
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.exe
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/bin/Debug/ArraysAndLists.pdb
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.csprojAssemblyReference.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.csproj.CoreCompileInputs.cache
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.exe
+/Users/Scott/Documents/the_tech_academy_basic_CSharp/Tech-Academy-Training/ArraysAndLists/obj/Debug/ArraysAndLists.pdb
