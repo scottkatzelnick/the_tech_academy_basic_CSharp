@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Documents\\the_tech_academy_basic_CSharp\\CarInsuranceRiskProgram\\CarInsuranceRiskProgram.csproj",
+      "projectUniqueName": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\CarInsuranceRiskProgram\\CarInsuranceRiskProgram.csproj",
       "projectName": "CarInsuranceRiskProgram",
-      "projectPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\CarInsuranceRiskProgram\\CarInsuranceRiskProgram.csproj",
+      "projectPath": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\CarInsuranceRiskProgram\\CarInsuranceRiskProgram.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-      "outputPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\CarInsuranceRiskProgram\\obj\\",
+      "outputPath": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\CarInsuranceRiskProgram\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
