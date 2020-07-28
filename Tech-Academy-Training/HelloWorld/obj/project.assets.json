@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-      "outputPath": "\\\\vmware-host\\Shared Folders\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\obj\\",
+      "outputPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
