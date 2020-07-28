@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Scott\\.nuget\\packages\\": {}
+    "C:\\Users\\Scott Katzelnick\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Loops\\Loops.csproj",
+      "projectUniqueName": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Loops\\Loops.csproj",
       "projectName": "Loops",
-      "projectPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Loops\\Loops.csproj",
-      "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-      "outputPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Loops\\obj\\",
+      "projectPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Loops\\Loops.csproj",
+      "packagesPath": "C:\\Users\\Scott Katzelnick\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Loops\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Scott Katzelnick\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
