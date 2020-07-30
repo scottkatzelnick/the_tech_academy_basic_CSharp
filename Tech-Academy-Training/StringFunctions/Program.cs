@@ -3,9 +3,9 @@ using System.Text;
 
 namespace StringFunctions
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Noraml String
             string name = "Scott";
@@ -43,15 +43,14 @@ namespace StringFunctions
             name = name.ToLower();
             Console.WriteLine(name);
 
-            // ** NOTE **
-            // Strings are immutable. They cannot be changed. Each time you "append" a string,
-            // you are just creating a new space in memory. You can run into a situation where
-            // your program will start to slow down if you have a string, or strings that keep
+            // ** NOTE ** Strings are immutable. They cannot be changed. Each time you "append" a
+            // string, you are just creating a new space in memory. You can run into a situation
+            // where your program will start to slow down if you have a string, or strings that keep
             // being created by string methods savings new positions in memory every time. C#
             // accounts for this and has a builtin Object called StringBuilder. It creates a
-            // "buffer" of sorts. A string that isn't immutable and can be expanded, collapsed,
-            // or apended in any way without taking up valuable memory positions. This results
-            // in programs that are much more responsive and won't slow down due to the expensive
+            // "buffer" of sorts. A string that isn't immutable and can be expanded, collapsed, or
+            // apended in any way without taking up valuable memory positions. This results in
+            // programs that are much more responsive and won't slow down due to the expensive
             // memory overhead costs of the normal "string" data type. (See Example Below)
 
             // Create a new instance of a StringBuilder
@@ -60,8 +59,6 @@ namespace StringFunctions
             sb.Append("My name is Scott.");
 
             Console.WriteLine(sb);
-
-
         }
     }
 }

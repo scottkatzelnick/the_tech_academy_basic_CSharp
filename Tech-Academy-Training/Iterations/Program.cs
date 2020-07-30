@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Iterations
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            int[] testScores = {98, 99, 95, 85, 73, 60, 77, 91, 84, 50, 87, 69, 61};
+            int[] testScores = { 98, 99, 95, 85, 73, 60, 77, 91, 84, 50, 87, 69, 61 };
 
             // Iterate an integer array using a for loop
             for (int i = 0; i < testScores.Length; i++)
@@ -19,7 +19,7 @@ namespace Iterations
             }
 
             // Iterate a string array
-            string[] names = {"Jesse", "Erik", "Daniel", "Adam"};
+            string[] names = { "Jesse", "Erik", "Daniel", "Adam" };
 
             for (int j = 0; j < names.Length; j++)
             {
@@ -31,7 +31,7 @@ namespace Iterations
 
             for (int j = 0; j < names.Length; j++)
             {
-               Console.WriteLine(names[j]); 
+                Console.WriteLine(names[j]);
             }
 
             List<int> testScoresList = new List<int>
@@ -81,8 +81,6 @@ namespace Iterations
             }
 
             Console.WriteLine(passingScores.Count);
-
-
 
             Console.Read();
         }

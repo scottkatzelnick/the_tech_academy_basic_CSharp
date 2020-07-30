@@ -1,7 +1,4 @@
-﻿using System
-
-
-namespace ClassesAndObjects
+﻿namespace ClassesAndObjects
 {
     internal class Program
     {

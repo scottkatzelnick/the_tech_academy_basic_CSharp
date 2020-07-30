@@ -1,4 +1,5 @@
 ﻿using System;
+
 #pragma warning disable 219
 
 namespace VariablesAndDataTypes
@@ -7,8 +8,6 @@ namespace VariablesAndDataTypes
     {
         public static void Main(string[] args)
         {
-
-
             //Convert string to int
             Console.WriteLine("What is your favorite number?");
             string favoriteNumber = Console.ReadLine();
@@ -50,7 +49,6 @@ namespace VariablesAndDataTypes
 
             Console.WriteLine(questionMark);
             Console.ReadLine();
-
         }
     }
 }

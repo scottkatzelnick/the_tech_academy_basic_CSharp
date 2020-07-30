@@ -2,9 +2,9 @@
 
 namespace BooleanLogic
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // AND Operator - True if both are true
             Console.WriteLine(true && false);

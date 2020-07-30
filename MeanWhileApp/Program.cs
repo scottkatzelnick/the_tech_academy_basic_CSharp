@@ -2,9 +2,9 @@
 
 namespace MeanWhileApp
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.Write("Please type 'upper' or 'lower' to display respective result\n>>>: ");
             string caseChoice = Console.ReadLine();
@@ -32,7 +32,7 @@ namespace MeanWhileApp
                     valid = true;
                 }
             }
-            
+
             Console.Write("\n\n");
 
             Console.Write("Please type 'digits' or 'characters' to display their respective results\n>>>: ");
@@ -66,15 +66,14 @@ namespace MeanWhileApp
             Console.WriteLine("You made it! Congrats!");
             Console.Write("Enter to Quit . . . . . . . . . . . ;)");
             Console.Read();
-
         }
 
-        const string alphabetLower = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
-        const string alphabetUpper = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
-        const string digits = "0 1 2 3 4 5 6 7 8 9";
-        const string specialChar = "! @ # $ % ^ & * ( ) - + _ = [ ] { } \\ | ; : ' \" < , > . / ? ` ~";
+        private const string alphabetLower = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
+        private const string alphabetUpper = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
+        private const string digits = "0 1 2 3 4 5 6 7 8 9";
+        private const string specialChar = "! @ # $ % ^ & * ( ) - + _ = [ ] { } \\ | ; : ' \" < , > . / ? ` ~";
 
-        static void MeanWhileUpper(string alphabetUpper)
+        private static void MeanWhileUpper(string alphabetUpper)
         {
             for (int i = 0; i < alphabetUpper.Length; i++)
             {
@@ -83,7 +82,7 @@ namespace MeanWhileApp
             }
         }
 
-        static void MeanWhileLower(string alphabetLower)
+        private static void MeanWhileLower(string alphabetLower)
         {
             for (int i = 0; i < alphabetLower.Length; i++)
             {
@@ -91,7 +90,8 @@ namespace MeanWhileApp
                 System.Threading.Thread.Sleep(40);
             }
         }
-        static void MeanWhileDigits(string digits)
+
+        private static void MeanWhileDigits(string digits)
         {
             for (int i = 0; i < digits.Length; i++)
             {
@@ -100,7 +100,7 @@ namespace MeanWhileApp
             }
         }
 
-        static void MeanWhileCharacters(string specialChar)
+        private static void MeanWhileCharacters(string specialChar)
         {
             for (int i = 0; i < specialChar.Length; i++)
             {

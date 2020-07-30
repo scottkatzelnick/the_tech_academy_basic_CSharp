@@ -2,15 +2,14 @@
 
 namespace Branching
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            
             int roomTemperature = 70;
 
             Console.Write("Please pick a temperature to compare:\n>>>: ");
-         
+
             int currentTemperature = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("\n");
@@ -37,7 +36,7 @@ namespace Branching
             else
             {
                 Console.WriteLine($"{currentTemperature}ºF is not quite {roomTemperature}ºF, room temperature.");
-            }            
+            }
 
             Console.Read();
         }

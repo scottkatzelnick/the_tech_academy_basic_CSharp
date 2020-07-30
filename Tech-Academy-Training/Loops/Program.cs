@@ -2,9 +2,9 @@
 
 namespace Loops
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Take input and initialize a variable
             Console.Write("Guess a number?\n>>>: ");
@@ -22,15 +22,18 @@ namespace Loops
                         Console.Write("Guess a number?\n>>>: ");
                         num = Convert.ToInt32(Console.ReadLine());
                         break;
+
                     case 12:
                         Console.WriteLine("You guessed 12! That is correct!");
                         isGuessed = true;
                         break;
+
                     case int n when n >= 20 && n <= 29:
                         Console.WriteLine($"Your guess is 'sort of' close. Try again!");
                         Console.Write("Guess a number?\n>>>: ");
                         num = Convert.ToInt32(Console.ReadLine());
                         break;
+
                     case int n when n >= 30:
                         Console.WriteLine("Your guess is way to high. Try again!");
                         Console.Write("Guess a number?\n>>>: ");

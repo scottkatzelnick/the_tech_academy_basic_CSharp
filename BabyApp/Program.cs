@@ -20,7 +20,7 @@ namespace BabyApp
                 string genderChoice = Console.ReadLine();
                 Console.WriteLine("\n");
 
-                //  Choosing index to randomly select name
+                // Choosing index to randomly select name
                 Console.Write("Please pick a number from 0 through 12\n>>>: ");
 
                 int numChoice = Convert.ToInt32(Console.ReadLine());
@@ -54,7 +54,7 @@ namespace BabyApp
 
                             int middleNameInt = Convert.ToInt32(Console.ReadLine());
 
-                            // Boy  names
+                            // Boy names
                             // ReSharper disable once SuggestVarOrType_Elsewhere
                             List<string> boyMiddleNameStrings = new List<string>
                             {
@@ -69,17 +69,16 @@ namespace BabyApp
 
                             if (middleNameInt <= 6)
                             {
-                                    Console.WriteLine(
-                                        $"The baby's middle name is {boyMiddleNameStrings[middleNameInt]}!");
-                                    middleValid = false;
-                                    babyValid = false;
+                                Console.WriteLine(
+                                    $"The baby's middle name is {boyMiddleNameStrings[middleNameInt]}!");
+                                middleValid = false;
+                                babyValid = false;
                             }
                             else
                             {
                                 Console.WriteLine("Please pick a number 0 through 6 only!");
                                 Console.WriteLine("\n");
                             }
-
                         } while (middleValid);
                     }
                     else
@@ -88,7 +87,6 @@ namespace BabyApp
                             "Please pick a gender as 'boy' or 'girl' and a number 0 through 12 only!");
                         Console.WriteLine("\n");
                     }
-
                 }
                 else
                 {
@@ -133,7 +131,6 @@ namespace BabyApp
                                     Console.WriteLine("Please pick a number 0 through 6 only!");
                                     Console.WriteLine("\n");
                                 }
-
                             } while (middleValid);
                         }
                         else
@@ -142,7 +139,6 @@ namespace BabyApp
                                 "Please pick a gender as 'boy' or 'girl' and a number 0 through 12 only!");
                             Console.WriteLine("\n");
                         }
-
                     }
                     else
                     {
@@ -165,7 +161,7 @@ namespace BabyApp
                     "Lets pick a lucky number for the baby! Please pick a number from 0 - 12\n>>>: ");
 
                 // Array with randomly placed numbers to make choice more dynamic
-                int[] luckyNumChooser = {8, 12, 9, 1, 5, 6, 11, 2, 4, 10, 7, 0, 3};
+                int[] luckyNumChooser = { 8, 12, 9, 1, 5, 6, 11, 2, 4, 10, 7, 0, 3 };
 
                 int luckyNumChoice = Convert.ToInt32(Console.ReadLine());
 

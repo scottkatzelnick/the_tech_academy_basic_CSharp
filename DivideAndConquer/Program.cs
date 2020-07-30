@@ -1,10 +1,8 @@
 using System;
-using System.Security.Cryptography.X509Certificates;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace MathOperatorAssignment
 {
-    class Program
+    internal class Program
     {
         public static void Main(string[] args)
         {
@@ -30,7 +28,7 @@ namespace MathOperatorAssignment
         }
 
         // Hello There
-        const string intro = "Welcome! In this console app you will give me an integer of your choosing and I will\nperform mathematical operations on your input. Don't be shy, I like working with larger\nnumbers as well!";
+        private const string intro = "Welcome! In this console app you will give me an integer of your choosing and I will\nperform mathematical operations on your input. Don't be shy, I like working with larger\nnumbers as well!";
 
         private static void TypeIntro(string intro)
         {
@@ -41,8 +39,7 @@ namespace MathOperatorAssignment
             }
         }
 
-        const string question1 = "What is your first number?\n>>>: ";
-
+        private const string question1 = "What is your first number?\n>>>: ";
 
         private static void TypeQuestion1(string question1)
         {
@@ -71,7 +68,7 @@ namespace MathOperatorAssignment
             }
         }
 
-        const string question2 = "That was a great warmup, boy I love Maths! I'm ready for your second number!\n>>>: ";
+        private const string question2 = "That was a great warmup, boy I love Maths! I'm ready for your second number!\n>>>: ";
 
         private static void TypeQuestion2(string question2)
         {
@@ -100,7 +97,7 @@ namespace MathOperatorAssignment
             }
         }
 
-        const string question3 = "A-m-a-z-i-n-g! It feels so good to be EXPRESSIVE. . . . . . as in expression. . .\nNevermind, your next number please?\n>>>: ";
+        private const string question3 = "A-m-a-z-i-n-g! It feels so good to be EXPRESSIVE. . . . . . as in expression. . .\nNevermind, your next number please?\n>>>: ";
 
         private static void TypeQuestion3(string question3)
         {
@@ -129,7 +126,7 @@ namespace MathOperatorAssignment
             }
         }
 
-        const string question4 = "Now that's what I'm talking about! Divide and conquer is the name of the game. . .\nAlrighty, shall we step it up and do some comparison operating?\nGive me another number and I'll compare it to see if yours\nis greater or not.\n>>>: ";
+        private const string question4 = "Now that's what I'm talking about! Divide and conquer is the name of the game. . .\nAlrighty, shall we step it up and do some comparison operating?\nGive me another number and I'll compare it to see if yours\nis greater or not.\n>>>: ";
 
         private static void TypeQuestion4(string question4)
         {
@@ -159,7 +156,6 @@ namespace MathOperatorAssignment
                         Console.WriteLine($"When comparing your input of {intInput4} to 50, it is false that your number\nis greater than mine!");
                         valid4 = false;
                     }
-
                 }
                 else
                 {
@@ -168,7 +164,7 @@ namespace MathOperatorAssignment
             }
         }
 
-        const string question5 = "Wooo Weee! All of this fun has gotten me wanting to try something to\nreally stretch out my Core muscles! All physical\nand virtual cores that is! Your next number please?\n>>>: ";
+        private const string question5 = "Wooo Weee! All of this fun has gotten me wanting to try something to\nreally stretch out my Core muscles! All physical\nand virtual cores that is! Your next number please?\n>>>: ";
 
         private static void TypeQuestion5(string question5)
         {
@@ -197,7 +193,7 @@ namespace MathOperatorAssignment
             }
         }
 
-        const string exit = "That really was a ton of fun! By the way, is it ton or tonne,\noh who knows?!?! Wouldn't want to bother Google these days,\nhis head is always in the clouds! Anyways, thanks for playing\nand maybe we can do it again sometime!\n . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nOh yea, just press enter at any point to exit, See ya!";
+        private const string exit = "That really was a ton of fun! By the way, is it ton or tonne,\noh who knows?!?! Wouldn't want to bother Google these days,\nhis head is always in the clouds! Anyways, thanks for playing\nand maybe we can do it again sometime!\n . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nOh yea, just press enter at any point to exit, See ya!";
 
         private static void EndProgram(string exit)
         {

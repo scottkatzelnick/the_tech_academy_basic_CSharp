@@ -2,7 +2,7 @@
 
 namespace MathAndComparisonOperators
 {
-    class Program
+    internal class Program
     {
         // New main method
         public static void Main(string[] args)
@@ -29,7 +29,7 @@ namespace MathAndComparisonOperators
             Console.WriteLine("Press Enter to Continue . . . ");
             Console.ReadLine();
 
-            // Division                                             
+            // Division
             double quotient = 100.00 / 17.00;
             Console.WriteLine(quotient);
             Console.WriteLine("Press Enter to Continue . . . ");
@@ -41,7 +41,6 @@ namespace MathAndComparisonOperators
             Console.WriteLine(remainderEven + "\n" + remainderOdd);
             Console.WriteLine("Press Enter to Continue . . . ");
             Console.ReadLine();
-
 
             // Comparison Operators:
 
@@ -66,7 +65,6 @@ namespace MathAndComparisonOperators
             Console.WriteLine(isWarmNotExact);
             Console.WriteLine("Press Enter to End . . . ");
             Console.ReadLine();
-
         }
     }
 }

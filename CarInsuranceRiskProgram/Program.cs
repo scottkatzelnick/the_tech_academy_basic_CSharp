@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+
 // ReSharper disable InconsistentNaming
 // ReSharper disable ParameterHidesMember
 
@@ -109,10 +110,12 @@ namespace CarInsuranceRiskProgram
                         didDui = true;
                         validDui = false;
                         break;
+
                     case "false":
                         didDui = false;
                         validDui = false;
                         break;
+
                     default:
                         Console.WriteLine("Please only type 'true' or false' as an acceptable answer! ");
                         Console.WriteLine("\n");
@@ -178,6 +181,7 @@ namespace CarInsuranceRiskProgram
                     case false:
                         Console.WriteLine(true);
                         break;
+
                     default:
                         Console.WriteLine(false);
                         break;

@@ -3,15 +3,15 @@ using System.Text;
 
 namespace StringAndStringBuilderApp
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Concatenate 3 strings
             const string str1 = "Hello, this string ";
             const string str2 = "will be put together ";
             const string str3 = "using concatenation in C#.";
-           
+
             Console.WriteLine(str1 + str2 + str3);
 
             // Convert a string to Uppercssd
@@ -32,7 +32,7 @@ namespace StringAndStringBuilderApp
             rootString.Append("Next, we have the \ngraphics processor, or graphics card. It's main responsibility is to drive a monitor, \noutputting the video signal created by the CPU. It's primary goal is to give the user a GUI to \ninteract with and trasnlate ones and zeros into images and videos."); // graphics processor
             rootString.Append("Lastly, the sound \ncard. It does just that and outputs sounds, i.e. music, sound effects, system sounds \nto a speaker adding another dimension of useability for the user. "); // sound card
             rootString.Append("There are definitely more \nparts that make up a computer, but these main eight are the required minimums to get a computer \nup and runnign."); // conclusion
-            
+
             Console.WriteLine("\r");
             Console.WriteLine(rootString);
             Console.Read();

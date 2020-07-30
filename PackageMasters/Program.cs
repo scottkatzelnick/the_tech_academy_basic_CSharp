@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace PackageMasters
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Package Masters! Please follow the instructions below.");
 
@@ -43,7 +43,7 @@ namespace PackageMasters
                     string quote = $"Your estimated total for shipping this package is: {((packDimensions * packWeight) / 100).ToString("C", CultureInfo.CurrentCulture)}";
                     Console.WriteLine(quote + "\nThank you!");
                 }
-            }            
+            }
         }
     }
 }
