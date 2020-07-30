@@ -12,6 +12,6 @@ Instructions: (To run any .dll or .exe depending on your setup)
 dotnet some/path/to/file/filename.dll or filename.exe
 ```
 
-3. You need to make sure your have the latest .NET Core installed which includes the latest verison of .NET Framework.
+3. You need to make sure your have the latest .NET Core installer framework!
 4. The program should begin to run. Enjoy!
 
