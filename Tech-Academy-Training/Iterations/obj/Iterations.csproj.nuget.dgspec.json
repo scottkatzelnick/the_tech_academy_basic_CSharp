@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj": {}
+    "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj": {}
   },
   "projects": {
-    "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj": {
+    "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj",
+        "projectUniqueName": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj",
         "projectName": "Iterations",
-        "projectPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj",
-        "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-        "outputPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\obj\\",
+        "projectPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\Iterations.csproj",
+        "packagesPath": "C:\\Users\\Scott Katzelnick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Iterations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Scott Katzelnick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

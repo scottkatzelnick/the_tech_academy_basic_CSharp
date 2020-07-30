@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj": {}
+    "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj": {}
   },
   "projects": {
-    "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj": {
+    "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj",
+        "projectUniqueName": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj",
         "projectName": "Branching",
-        "projectPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj",
-        "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-        "outputPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\obj\\",
+        "projectPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\Branching.csproj",
+        "packagesPath": "C:\\Users\\Scott Katzelnick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\Branching\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Scott Katzelnick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

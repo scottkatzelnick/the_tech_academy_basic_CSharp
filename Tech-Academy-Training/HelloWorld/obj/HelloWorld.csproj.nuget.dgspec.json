@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
-        "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-        "outputPath": "Z:\\Documents\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\obj\\",
+        "projectPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\Scott Katzelnick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Scott Katzelnick\\Source\\Repos\\scottkatzelnick\\the_tech_academy_basic_CSharp\\Tech-Academy-Training\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Scott Katzelnick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
