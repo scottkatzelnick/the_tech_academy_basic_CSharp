@@ -10,7 +10,7 @@ namespace Eleven_PartAssignment
         private static void Main()
         {
             // Assignment 1 - Have user add onto end of strings in array and print to console
-            string[] newArray = {"8UYGUU98uj", "7tfgyuv", "8vuy786&gg", "jh76FDS5%7"};
+            string[] newArray = { "8UYGUU98uj", "7tfgyuv", "8vuy786&gg", "jh76FDS5%7" };
 
             Console.Write(
                 "Please enter a random set of numbers, letters and/or\nspecial character to create a unique password.\n>>>: ");
@@ -67,12 +67,11 @@ namespace Eleven_PartAssignment
                 Console.WriteLine(t1);
             }
 
-
-
             Console.WriteLine("\nEnter to Continue . . .");
             Console.ReadLine();
 
-            // Assignment 5 - Create loop using "<" operator (Fibonacci Sequence up to and including the 20th term)
+            // Assignment 5 - Create loop using "<" operator (Fibonacci Sequence up to and including
+            // the 20th term)
             Console.WriteLine("The Fibonacci Sequence up to and including the 20th term!");
             int f1 = 0, f2 = 1;
             for (int x = 0; x <= 20; x++)
@@ -83,8 +82,6 @@ namespace Eleven_PartAssignment
 
                 Console.WriteLine(f1);
             }
-
-
 
             Console.WriteLine("\nEnter to Continue . . .");
             Console.ReadLine();
@@ -163,7 +160,6 @@ namespace Eleven_PartAssignment
                 "$20 bill",
                 "dime",
                 "$1 bill"
-
             };
 
             Console.Write("Please type your choice from the following list:\n");
@@ -208,7 +204,8 @@ namespace Eleven_PartAssignment
             Console.WriteLine("\nEnter to Continue . . .");
             Console.ReadLine();
 
-            // Assignment 11 - Print items in List and if they've been printed previously from the same List or not
+            // Assignment 11 - Print items in List and if they've been printed previously from the
+            // same List or not
             List<string> newList = new List<string>
             {
                 "C#",
@@ -230,7 +227,6 @@ namespace Eleven_PartAssignment
                     numberMap.Add(text, true);
                     Console.WriteLine(
                         $"{text} - First time seen in list.");
-
                 }
                 else
                 {
@@ -245,15 +241,3 @@ namespace Eleven_PartAssignment
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
