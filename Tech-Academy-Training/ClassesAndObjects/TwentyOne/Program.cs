@@ -29,7 +29,7 @@ namespace TwentyOne
             Console.ReadLine();
         }
 
-        // Shuffle() method that randomizes the cards order in the deck.Cards List Optional
+        // Shuffle() method that randomizes the cards order in the deck.Cards List. Optional
         // parameters can be set the paremter equal to an "initial value"
         public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
         {
