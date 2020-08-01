@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E462BF54-B1CC-4D07-9566-231890964F04}</ProjectGuid>
+    <ProjectGuid>{9A33A177-2895-476A-84B8-7CF76D223B96}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassesAndObjects</RootNamespace>
-    <AssemblyName>ClassesAndObjects</AssemblyName>
+    <RootNamespace>TwentyOne</RootNamespace>
+    <AssemblyName>TwentyOne</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

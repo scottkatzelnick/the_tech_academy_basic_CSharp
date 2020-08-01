@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFunctions", "StringFunctions\StringFunctions.csproj", "{29953472-D117-4F5B-B1A7-2842F74A78D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringFunctions", "StringFunctions\StringFunctions.csproj", "{29953472-D117-4F5B-B1A7-2842F74A78D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndLists", "ArraysAndLists\ArraysAndLists.csproj", "{B91BCEAA-3829-4D06-A006-1F1690185AC6}"
 EndProject
@@ -24,7 +24,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterations", "Iterations\It
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{1F983B1A-8455-4C36-AC5F-4A89BAE941BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{E462BF54-B1CC-4D07-9566-231890964F04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyOne", "ClassesAndObjects\TwentyOne\TwentyOne.csproj", "{9A33A177-2895-476A-84B8-7CF76D223B96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,10 +76,10 @@ Global
 		{1F983B1A-8455-4C36-AC5F-4A89BAE941BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F983B1A-8455-4C36-AC5F-4A89BAE941BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F983B1A-8455-4C36-AC5F-4A89BAE941BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E462BF54-B1CC-4D07-9566-231890964F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E462BF54-B1CC-4D07-9566-231890964F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E462BF54-B1CC-4D07-9566-231890964F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E462BF54-B1CC-4D07-9566-231890964F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A33A177-2895-476A-84B8-7CF76D223B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A33A177-2895-476A-84B8-7CF76D223B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A33A177-2895-476A-84B8-7CF76D223B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A33A177-2895-476A-84B8-7CF76D223B96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
