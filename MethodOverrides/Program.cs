@@ -26,7 +26,7 @@ namespace MethodOverrides
 
             // Instantiate the Overrides class and call the third method
             Overrides overrides2 = new Overrides();
-            int thirdResult = overrides2.SelfOperate(strInput: "1o");
+            int thirdResult = overrides2.SelfOperate(strInput: "10");
 
             // Print result to console
             if (thirdResult == 0)
