@@ -28,7 +28,30 @@ namespace OptionalParams
                         Console.Write("\nEnter second number, if you wish, as this number is not required like the first\n>>>: ");
                         paramTwo = Console.ReadLine();
 
-                        if (paramTwo != "" && paramTwo != "0" && paramOne != "0")
+                        if (paramTwo == "" || paramTwo == "0" || paramOne == "0")
+                        {
+                            if (paramOne != "0" && paramTwo != "0")
+                            {
+                                try
+                                {
+                                    int result = Maths.DoubleInOneOut(paramOne);
+                                    Console.WriteLine($"\nSince only one number was given, {paramOne}, we apply the second function,\n");
+                                    Console.WriteLine("The product of the quotient of the product of the sums of the difference equates to {0}!", result);
+                                    Console.WriteLine("That is (numOne + numOne + numOne * numOne / numOne - numOne) * numOne just to visualize it better!");
+                                    paramOne = "Leave Loop";
+                                    paramTwo = "Leave Loop";
+                                }
+                                catch (DivideByZeroException err)
+                                {
+                                    Console.WriteLine($"Oopps, it look like you are trying to divide by zero according to the system\nError: {err.Message}");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("\nPlease enter a number greater than zero!");
+                            }
+                        }
+                        else
                         {
                             int result = Maths.DoubleInOneOut(paramOne, paramTwo);
                             Console.WriteLine($"\nSince two numbers were given, {paramOne} and {paramTwo}, we apply the first function,\n");
@@ -36,26 +59,6 @@ namespace OptionalParams
                             Console.WriteLine("That is (numOne + numTwo) / numOne * ((numOne + numTwo) / numTwo) just to visualize it better!");
                             paramOne = "Leave Loop";
                             paramTwo = "Leave Loop";
-                        }
-                        else if (paramOne != "0" && paramTwo != "0")
-                        {
-                            try
-                            {
-                                int result = Maths.DoubleInOneOut(paramOne);
-                                Console.WriteLine($"\nSince only one number was given, {paramOne}, we apply the second function,\n");
-                                Console.WriteLine("The product of the quotient of the product of the sums of the difference equates to {0}!", result);
-                                Console.WriteLine("That is (numOne + numOne + numOne * numOne / numOne - numOne) * numOne just to visualize it better!");
-                                paramOne = "Leave Loop";
-                                paramTwo = "Leave Loop";
-                            }
-                            catch (DivideByZeroException err)
-                            {
-                                Console.WriteLine($"Oopps, it look like you are trying to divide by zero according to the system\nError: {err.Message}");
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("\nPlease enter a number greater than zero!");
                         }
                     }
                 }
