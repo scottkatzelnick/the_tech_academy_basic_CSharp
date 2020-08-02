@@ -10,6 +10,7 @@ namespace OptionalParams
     {
         private static void Main(string[] args)
         {
+            Maths function = new Maths();
             string paramOne;
             string paramTwo = null;
             do
@@ -32,19 +33,12 @@ namespace OptionalParams
                         {
                             if (paramOne != "0" && paramTwo != "0")
                             {
-                                try
-                                {
-                                    int result = Maths.DoubleInOneOut(paramOne);
-                                    Console.WriteLine($"\nSince only one number was given, {paramOne}, we apply the second function,\n");
-                                    Console.WriteLine("The product of the quotient of the product of the sums of the difference equates to {0}!", result);
-                                    Console.WriteLine("That is (numOne + numOne + numOne * numOne / numOne - numOne) * numOne just to visualize it better!");
-                                    paramOne = "Leave Loop";
-                                    paramTwo = "Leave Loop";
-                                }
-                                catch (DivideByZeroException err)
-                                {
-                                    Console.WriteLine($"Oopps, it look like you are trying to divide by zero according to the system\nError: {err.Message}");
-                                }
+                                int result = function.DoubleInOneOut(paramOne);
+                                Console.WriteLine($"\nSince only one number was given, {paramOne}, we apply the second function,\n");
+                                Console.WriteLine("The product of the quotient of the product of the sums of the difference equates to {0}!", result);
+                                Console.WriteLine("That is (numOne + numOne + numOne * numOne / numOne - numOne) * numOne just to visualize it better!");
+                                paramOne = "Leave Loop";
+                                paramTwo = "Leave Loop";
                             }
                             else
                             {
@@ -53,7 +47,7 @@ namespace OptionalParams
                         }
                         else
                         {
-                            int result = Maths.DoubleInOneOut(paramOne, paramTwo);
+                            int result = function.DoubleInOneOut(paramOne, paramTwo);
                             Console.WriteLine($"\nSince two numbers were given, {paramOne} and {paramTwo}, we apply the first function,\n");
                             Console.WriteLine("The product of the quotients of the sum over each number equates to {0}!", result);
                             Console.WriteLine("That is (numOne + numTwo) / numOne * ((numOne + numTwo) / numTwo) just to visualize it better!");
@@ -64,7 +58,7 @@ namespace OptionalParams
                 }
                 catch (FormatException err)
                 {
-                    Console.WriteLine($"Oopps, looks like you didn't enter a valid number for one or both of your input(s)\nError: {err.Message}");
+                    Console.WriteLine($"\nOopps, looks like you didn't enter a valid number for one or both of your input(s)\nError: {err.Message}");
                 }
             } while (paramOne == "" || paramOne == "0" || paramTwo == "0");
         }

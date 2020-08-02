@@ -9,7 +9,7 @@ namespace OptionalParams
     internal class Maths
     {
         // Method of class Maths
-        internal static int DoubleInOneOut(string paramOne, string paramTwo = null)
+        internal int DoubleInOneOut(string paramOne, string paramTwo = null)
         {
             long result = 0;
             if (paramTwo != null)
