@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace TwentyOne
 {
@@ -46,7 +47,29 @@ namespace TwentyOne
         }
 
         // Creates a List for the Deck class containg all the Card objects i.e. Deck deck = new
-        // Deck(); deck.Cards equates to this List
+        // Deck(); deck.Cards equates to this List. This is a "property" of the Deck class.
         public List<Card> Cards { get; set; }
+
+        // Shuffle() method that randomizes the cards order in the deck.Cards List. Optional
+        // parameters can be set the paremter equal to an "initial value"
+        public void Shuffle(int times = 1)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                // Creates temporary List and random object
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                // Iterate through deck.Cards List until empty and add cards to TempList randomly indexed
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                // Returns shuffled cards back to deck.Cards List
+                Cards = TempList;
+            }
+        }
     }
 }
