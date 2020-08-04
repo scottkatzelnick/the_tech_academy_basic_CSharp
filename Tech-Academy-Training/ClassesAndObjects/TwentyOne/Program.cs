@@ -7,6 +7,10 @@ namespace TwentyOne
     {
         private static void Main(string[] args)
         {
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Scott", "Bill", "Bob" };
+            game.ListPlayers();
+
             Deck deck = new Deck(); // Initialize Deck object called deck
 
             deck.Shuffle(); // Apply the Shuffle() method to randomize order of the cards in the deck
@@ -17,6 +21,7 @@ namespace TwentyOne
             }
 
             Console.WriteLine("Cards in Deck = {0}", deck.Cards.Count);
+
             Console.ReadLine();
         }
     }
