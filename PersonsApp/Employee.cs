@@ -12,19 +12,19 @@
             return !firstEmployee.Id.Equals(secondEmployee.Id);
         }
 
-        public override bool Equals(object o)
-        {
-            if (o == null)
-                return false;
+        //public override bool Equals(object o)
+        //{
+        //    if (o == null)
+        //        return false;
 
-            var second = o as Employee;
+        // var second = o as Employee;
 
-            return second != null && Id == second.Id;
-        }
+        //    return second != null && Id == second.Id;
+        //}
 
-        public override int GetHashCode()
-        {
-            return (int)Id;
-        }
+        //public override int GetHashCode()
+        //{
+        //    return (int)Id;
+        //}
     }
 }

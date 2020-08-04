@@ -10,7 +10,7 @@ namespace PersonsApp
             {
                 FirstName = "Bill",
                 LastName = "Smith",
-                Id = 2
+                Id = 3
             };
             firstEmployee.SayName();
 
@@ -18,11 +18,11 @@ namespace PersonsApp
             {
                 FirstName = "Sample",
                 LastName = "Student",
-                Id = 2
+                Id = 3
             };
             secondEmployee.SayName();
 
-            Console.WriteLine(firstEmployee == secondEmployee);
+            Console.WriteLine(firstEmployee != secondEmployee);
             Console.ReadLine();
         }
     }
