@@ -7,13 +7,16 @@ namespace TwentyOne
     {
         private static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Scott", "Bill", "Bob" };
-            game.ListPlayers();
+            Game game = new TwentyOneGame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Scott";
+            game += player;
+            game -= player;
 
             Deck deck = new Deck(); // Initialize Deck object called deck
 
-            deck.Shuffle(); // Apply the Shuffle() method to randomize order of the cards in the deck
+            deck.Shuffle(3); // Apply the Shuffle() method to randomize order of the cards in the deck
 
             foreach (Card card in deck.Cards) // Cards is a List containing all cards
             {
