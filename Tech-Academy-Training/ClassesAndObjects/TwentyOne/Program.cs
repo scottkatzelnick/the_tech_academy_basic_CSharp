@@ -7,13 +7,6 @@ namespace TwentyOne
     {
         private static void Main(string[] args)
         {
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Scott";
-            game += player;
-            game -= player;
-
             Deck deck = new Deck(); // Initialize Deck object called deck
 
             deck.Shuffle(3); // Apply the Shuffle() method to randomize order of the cards in the deck

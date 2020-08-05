@@ -1,30 +1,34 @@
-﻿namespace PersonsApp
+﻿using System.Collections.Generic;
+
+namespace PersonsApp
 {
-    public class Employee : Person
+    public class Employee<T> : Person
     {
-        public static bool operator ==(Employee firstEmployee, Employee secondEmployee)
+        public List<T> Things { get; set; }
+
+        public static bool operator ==(Employee<T> firstEmployee, Employee<T> secondEmployee)
         {
             return firstEmployee.Id.Equals(secondEmployee.Id);
         }
 
-        public static bool operator !=(Employee firstEmployee, Employee secondEmployee)
+        public static bool operator !=(Employee<T> firstEmployee, Employee<T> secondEmployee)
         {
             return !firstEmployee.Id.Equals(secondEmployee.Id);
         }
 
-        //public override bool Equals(object o)
-        //{
-        //    if (o == null)
-        //        return false;
+        public override bool Equals(object o)
+        {
+            if (o == null)
+                return false;
 
-        // var second = o as Employee;
+            var second = o as Employee<T>;
 
-        //    return second != null && Id == second.Id;
-        //}
+            return second != null && Id == second.Id;
+        }
 
-        //public override int GetHashCode()
-        //{
-        //    return (int)Id;
-        //}
+        public override int GetHashCode()
+        {
+            return (int)Id;
+        }
     }
 }

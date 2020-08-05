@@ -6,7 +6,7 @@ namespace PersonsApp
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public object Id { get; set; }
+        public int Id { get; set; }
 
         public void SayName()
         {
