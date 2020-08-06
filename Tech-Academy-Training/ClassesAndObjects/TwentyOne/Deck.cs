@@ -9,34 +9,18 @@ namespace TwentyOne
         {
             Cards = new List<Card>(); // Initialize an empty list of cards
 
-            // A List of all possible suits
-            List<string> Suits = new List<string>()
+            for (int i = 0; i < 13; i++)
             {
-                "Clubs",
-                "Hearts",
-                "Diamonds",
-                "Spades"
-            };
-
-            // A List of all possible faces
-            List<string> Faces = new List<string>()
-            {
-                "Two", "Three", "Four", "Five", "Six", "Seven",
-                "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
-            };
-
-            foreach (string face in Faces)
-            {
-                foreach (string suit in Suits)
+                for (int j = 0; j < 4; j++)
                 {
                     /* Calls on the Card class to create a new card object, then initializing the
-                       new card object the properties suit and face. Next, it adds the card to the
-                       aforementioned empty Card List.
-
-                       **Total Card objects created equals 52 (4 suits x 13 faces)** */
-
-                    Card card = new Card() { Face = face, Suit = suit }; // Object Initialization
+                    new card object the properties suit and face. Next, it adds the card to the
+                    aforementioned empty Card List. */
+                    Card card = new Card();
+                    card.Face = (Face)i;
+                    card.Suit = (Suit)j;
                     Cards.Add(card);
+                    // **Total Card objects created equals 52 (4 suits x 13 faces)**
                 }
             }
         }

@@ -1,9 +1,34 @@
 ﻿namespace TwentyOne
 {
-    public class Card
+    public struct Card
     {
-        public string Suit { get; set; } // Creates Card property Suit
+        public Suit Suit { get; set; } // Creates Card property Suit
 
-        public string Face { get; set; } // Creates Card property Face
+        public Face Face { get; set; } // Creates Card property Face
+    }
+
+    public enum Suit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
+
+    public enum Face
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }
