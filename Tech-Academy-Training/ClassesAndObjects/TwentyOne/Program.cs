@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Globalization;
 
 namespace TwentyOne
 {
@@ -8,18 +7,33 @@ namespace TwentyOne
     {
         private static void Main(string[] args)
         {
-            Deck deck = new Deck(); // Initialize Deck object called deck
+            Console.Write("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.\n>>>: ");
+            string inputName = Console.ReadLine();
 
-            deck.Shuffle(3); // Apply the Shuffle() method to randomize order of the cards in the deck
+            TextInfo playerNameTI = new CultureInfo("en-US", false).TextInfo; // Creates a TextInfo based on the "en-US" culture
+            string lowerPlayerName = playerNameTI.ToLower(inputName); // First pass normalization to lower-case all letters
+            string playerName = playerNameTI.ToTitleCase(lowerPlayerName); // Last pass normalization to capitalize player's name
 
-            foreach (Card card in deck.Cards) // Cards is a List containing all cards
+            Console.Write("\nAnd how much money did you bring today?\n>>>: ");
+            int bank = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write($"\nHello {playerName}. Would you like to join a game of 21, right now?\n>>>: ");
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "yea" || answer == "yup" || answer == "ya" || answer == "y")
             {
-                Console.WriteLine(card.Face + " of " + card.Suit);
+                Player player = new Player(playerName, bank);
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play(); // Abstract method, contains logic for game itself
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
             }
-
-            Console.WriteLine("Cards in Deck = {0}", deck.Cards.Count);
-
-            Console.ReadLine();
+            Console.WriteLine("Feel free to look around the casino. Bye for now!");
+            Console.Read();
         }
     }
 }

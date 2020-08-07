@@ -5,6 +5,11 @@
         public Suit Suit { get; set; } // Creates Card property Suit
 
         public Face Face { get; set; } // Creates Card property Face
+
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
     }
 
     public enum Suit
