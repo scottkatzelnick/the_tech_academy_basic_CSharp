@@ -30,7 +30,7 @@ namespace TwentyOne
                     game.Play(); // Abstract method, contains logic for game itself
                 }
                 game -= player;
-                Console.WriteLine("Thank you for playing!");
+                Console.WriteLine("\nThank you for playing!\n");
             }
             Console.WriteLine("Feel free to look around the casino. Bye for now!");
             Console.Read();
