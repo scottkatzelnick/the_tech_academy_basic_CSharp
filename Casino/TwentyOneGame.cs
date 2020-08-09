@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Casino.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TwentyOne
+namespace Casino.BlackJack
 {
     public class TwentyOneGame : Game, IWalkAway
     {
@@ -41,11 +42,11 @@ namespace TwentyOne
                     Dealer.Deal(player.Hand);
                     if (i == 1)
                     {
-                        bool blackJack = TWentyOneRules.CheckForBlackJack(player.Hand);
+                        bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
                         if (blackJack)
                         {
-                            Console.WriteLine($"BlackJack! {player.Name} wins {Bets[player]}!");
                             player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
+                            Console.WriteLine($"BlackJack! {player.Name} wins {Bets[player]}!\nYour new balance is now {player.Balance}!");
                             return;
                         }
                     }
@@ -54,7 +55,7 @@ namespace TwentyOne
                 Dealer.Deal(Dealer.Hand);
                 if (i == 1)
                 {
-                    bool blackJack = TWentyOneRules.CheckForBlackJack(Dealer.Hand);
+                    bool blackJack = TwentyOneRules.CheckForBlackJack(Dealer.Hand);
                     if (blackJack)
                     {
                         Console.WriteLine("\nDealer has BlackJack! Everyone loses!");
@@ -86,7 +87,7 @@ namespace TwentyOne
                     {
                         Dealer.Deal(player.Hand);
                     }
-                    bool busted = TWentyOneRules.isBusted(player.Hand);
+                    bool busted = TwentyOneRules.isBusted(player.Hand);
                     if (busted)
                     {
                         Dealer.Balance += Bets[player];
@@ -106,14 +107,14 @@ namespace TwentyOne
                     }
                 }
             }
-            Dealer.isBusted = TWentyOneRules.isBusted(Dealer.Hand);
-            Dealer.Stay = TWentyOneRules.ShouldDealerStay(Dealer.Hand);
+            Dealer.isBusted = TwentyOneRules.isBusted(Dealer.Hand);
+            Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
             while (!Dealer.Stay && !Dealer.isBusted)
             {
                 Console.WriteLine("\nDealer is hitting. . .");
                 Dealer.Deal(Dealer.Hand);
-                Dealer.isBusted = TWentyOneRules.isBusted(Dealer.Hand);
-                Dealer.Stay = TWentyOneRules.ShouldDealerStay(Dealer.Hand);
+                Dealer.isBusted = TwentyOneRules.isBusted(Dealer.Hand);
+                Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
             }
             if (Dealer.Stay)
             {
@@ -124,15 +125,15 @@ namespace TwentyOne
                 Console.WriteLine("\nDealer Busted!");
                 foreach (KeyValuePair<Player, int> entry in Bets)
                 {
-                    Console.WriteLine($"{entry.Key.Name} won {entry.Value}");
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
                     Dealer.Balance -= entry.Value;
+                    Console.WriteLine($"{entry.Key.Name} won {entry.Value}! Your new balance is {entry.Key.Balance}!");
                 }
                 return;
             }
             foreach (Player player in Players)
             {
-                bool? playerWon = TWentyOneRules.CompareHands(player.Hand, Dealer.Hand);
+                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);
                 if (playerWon == null)
                 {
                     Console.WriteLine("Push! No one wins.");
@@ -140,14 +141,15 @@ namespace TwentyOne
                 }
                 else if (playerWon == true)
                 {
-                    Console.WriteLine($"\n{player.Name} won {Bets[player]}");
                     player.Balance += (Bets[player] * 2);
                     Dealer.Balance -= Bets[player];
+                    Console.WriteLine($"\n{player.Name} won {Bets[player]}! Your new balance is {player.Balance}!");
                 }
                 else
                 {
                     Console.WriteLine($"\nDealer Wins {Bets[player]}!");
                     Dealer.Balance += Bets[player];
+                    Console.WriteLine($"Your new balance is now {player.Balance}.");
                 }
                 Console.Write("\n\nPlay again?\n>>>: ");
                 string answer = Console.ReadLine().ToLower();

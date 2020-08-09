@@ -1,4 +1,4 @@
-﻿namespace TwentyOne
+﻿namespace Casino.Interfaces
 {
     internal interface IWalkAway
     {

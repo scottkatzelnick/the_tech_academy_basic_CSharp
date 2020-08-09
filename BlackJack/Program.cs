@@ -1,13 +1,18 @@
-﻿using System;
+﻿using Casino;
+using Casino.BlackJack;
+using System;
 using System.Globalization;
+using System.IO;
 
-namespace TwentyOne
+namespace BlackJack
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            Console.Write("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.\n>>>: ");
+            const string casinoName = "Grand Hotel & Casino"; // Great if used several times or more and you want it to stay consistent
+
+            Console.Write($"Welcome to {casinoName}. Let's start by telling me your name.\n>>>: ");
             string inputName = Console.ReadLine();
 
             TextInfo playerNameTI = new CultureInfo("en-US", false).TextInfo; // Creates a TextInfo based on the "en-US" culture
@@ -22,6 +27,11 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "yea" || answer == "yup" || answer == "ya" || answer == "y")
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Scott Katzelnick\logs\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;

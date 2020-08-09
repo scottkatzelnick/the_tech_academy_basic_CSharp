@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace TwentyOne
+namespace Casino.BlackJack
 {
-    internal class TWentyOneRules
+    internal class TwentyOneRules
     {
         private static Dictionary<Face, int> _cardValues = new Dictionary<Face, int>()
         {
