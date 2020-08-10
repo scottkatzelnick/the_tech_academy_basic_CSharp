@@ -15,12 +15,18 @@ namespace BlackJack
             Console.Write($"Welcome to {casinoName}. Let's start by telling me your name.\n>>>: ");
             string inputName = Console.ReadLine();
 
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.Write("And how much money did you bring today?\n>>>: ");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals!");
+            }
+
             TextInfo playerNameTI = new CultureInfo("en-US", false).TextInfo; // Creates a TextInfo based on the "en-US" culture
             string lowerPlayerName = playerNameTI.ToLower(inputName); // First pass normalization to lower-case all letters
             string playerName = playerNameTI.ToTitleCase(lowerPlayerName); // Last pass normalization to capitalize player's name
-
-            Console.Write("\nAnd how much money did you bring today?\n>>>: ");
-            int bank = Convert.ToInt32(Console.ReadLine());
 
             Console.Write($"\nHello {playerName}. Would you like to join a game of 21, right now?\n>>>: ");
             string answer = Console.ReadLine().ToLower();
@@ -37,7 +43,22 @@ namespace BlackJack
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance > 0)
                 {
-                    game.Play(); // Abstract method, contains logic for game itself
+                    try
+                    {
+                        game.Play(); // Abstract method, contains logic for game itself
+                    }
+                    catch (FraudException)
+                    {
+                        Console.WriteLine("Security, kick this person out!");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception err)
+                    {
+                        Console.WriteLine($"An error occured- {err.Message}! Please see your system administrator.");
+                        Console.ReadLine();
+                        return;
+                    }
                 }
                 game -= player;
                 Console.WriteLine("\nThank you for playing!\n");
