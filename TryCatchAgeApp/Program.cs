@@ -21,7 +21,7 @@ namespace TryCatchAgeApp
                     {
                         ConvertAge convertAge = new ConvertAge();
                         int birthYear = convertAge.FindYear(age);
-                        Console.WriteLine($"\nYou were born in {birthYear} or {birthYear - 1}, depending on when is your actual Birthdate!");
+                        Console.WriteLine($"\nYou were born in {birthYear} or {birthYear - 1}, depending on when your actual Birthdate was!");
                     }
                 }
                 catch (ZeroException)
